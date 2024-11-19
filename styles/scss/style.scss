@@ -30,6 +30,7 @@ h3 {
   padding: 2rem;
   width: 25%;
   border-right: 4px solid black;
+  font-size: 1.2rem;
   & ul {
     padding-left: 1rem;
   }
@@ -71,7 +72,7 @@ h3 {
   }
   &-content {
     padding: 2rem;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     &-catchphrase {
       margin-bottom: 1.5rem;
     }
@@ -86,6 +87,9 @@ h3 {
       }
       &-post {
         padding-left: 1rem;
+        &-description{
+          display: none;
+        }
       }
       & span {
         font-weight: bold;
